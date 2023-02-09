@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Heading-Pro-Book-trial";
+    src: url("medias/fonts/Heading-Pro-Book-trial.ttf");
+}
+
+@font-face {
+    font-family: "Heading-Pro-Bold-trial";
+    src: url("medias/fonts/Heading-Pro-Bold-trial.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #191830;
+}
+
+header{
+    position:relative;
+    z-index:10;
+}
+
+main{
+    margin: 0;
+    background: #2f2d5b;
+    width: 60%;
+    height: 100%;
+    font-family: "Heading-Pro-Bold-trial";
+    box-shadow: -0.8vw 0 1vh -1vh black, 0.8vw 0 1vh -1vh black;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+main h1{
+    margin: 0;
+    color: white;
+    width: 100%;
+    padding: 3%;
+    font-size: 2vw;
+    margin-left: 10vw;
+}
+
+main p{
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 1vw;
+    margin-bottom: 5vh;
+    width: 50%;
+}
+
